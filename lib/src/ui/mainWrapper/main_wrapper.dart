@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:intern_pass/core/utils/responsive/responsivex_size.dart';
 
-import '../../core/utils/globalError.dart';
-import '../../src/widgets/custom_navigationbar.dart';
+import '../../../core/utils/globalError.dart';
+import '../../widgets/custom_navigationbar.dart';
+
 
 
 class MainPageWrapper extends StatefulWidget {

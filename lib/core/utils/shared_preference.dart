@@ -1,5 +1,6 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../../src/ui/state/providers/utility_provider.dart';
 import '../../ui/state/providers/utility_provider.dart';
 
 class SharedPreferencesUtil {

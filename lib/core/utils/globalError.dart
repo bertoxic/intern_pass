@@ -1,7 +1,8 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import '../../ui/state/providers/utility_provider.dart';
+
+import '../../src/ui/state/providers/utility_provider.dart';
 
 UtilityProvider widgetStateProvider = UtilityProvider();
 final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();

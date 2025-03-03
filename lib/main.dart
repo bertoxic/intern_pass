@@ -1,8 +1,9 @@
 
 
 
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:intern_pass/routes/routes.go.dart';
 
 void main(){
   runApp(ProviderScope(child: MyApp()));
@@ -11,6 +12,9 @@ void main(){
 class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return MaterialApp.router(
+      debugShowCheckedModeBanner: false,
+    routerConfig: routes,
+    );
   }
 }

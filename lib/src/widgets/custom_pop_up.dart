@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'dart:ui';
 import 'dart:math' as math;
 
-import '../../ui/state/providers/utility_provider.dart';
+import '../ui/state/providers/utility_provider.dart';
 
 
 enum PopupType { info, success, error, warning }
